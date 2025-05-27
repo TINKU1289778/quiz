@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>science quiz</title>
+    </head>
+    <body >
+        <img src="C:\Users\sapeksh\Desktop\gift web\logo.png"/><br>
+<button color="red" onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/dashbod.htm'">home</button><br><br><br><br><br><br>
+<button onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/quiz.html'"><--previous</button><button onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/math.html'">next--></button>
+        <h1>Which animal has the largest eyes relative to its body size? </h1><br>
+        <li><input type="radio" id="correct1">gaint squid</li><br>
+        <li><input type="radio" >lion</li><br>
+        <li><input type="radio" >cat</li><br>
+        <li><input type="radio" >CATALOO</li><br>
+        <h1> What mountain peak is farthest from the center of the Earth?</h1><br>
+        <li><input type="radio" id="correct2"> mt chimborozo</li><br>
+        <li><input type="radio" > mt everest</li><br>
+        <li><input type="radio" >mt K2</li><br>
+        <li><input type="radio" >kunchanjunga</li><br>
+    </body>
+    <body bgcolor="yellow">
+         <h1>What is the largest desert in the world?</h1><br>
+        <li><input type="radio" >shara</li><br>
+        <li><input type="radio" >thar</li><br>
+        <li><input type="radio" id="correct3">antartica</li><br>
+        <li><input type="radio" >artic</li><br>
+        <h1>Will there be an impact on your height if you go to space?</h1><br>
+        <li><input type="radio" >increase</li><br>
+        <li><input type="radio" >remain same</li><br>
+        <li><input type="radio" >decrease</li><br>
+        <li><input type="radio" id="correct4">remain same but increase</li><br>
+        <h1>What is the only rock that floats? </h1><br>
+        <li><input type="radio" >limestone</li><br>
+        <li><input type="radio" id="correct5">pumic</li><br>
+        <li><input type="radio" >graphite</li><br>
+        <li><input type="radio" >sapphire<li><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+    
+    <center><button onclick="result()" >SUBMIT quiz</button></li></center>
+  
+      <script type="text/javascript">
+        function result()
+        {
+            var score=0;
+            if(document.getElementById('correct1').checked)
+        {
+            score++;
+        }
+    
+        
+        if(document.getElementById('correct2').checked)
+        {
+            score++;
+        }
+
+
+        if(document.getElementById('correct3').checked)
+        {
+            score++;
+        }
+
+        if(document.getElementById('correct4').checked)
+        {
+            score++;
+        }
+
+
+        if(document.getElementById('correct5').checked)
+        {
+            score++;
+        }
+        alert("your score is"+score);
+        }
+    </script>
+</body>
+</html>

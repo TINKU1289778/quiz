@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Geography quiz</title>
+    </head>
+    <body >
+
+        <img src="C:\Users\sapeksh\Desktop\gift web\logo.png"/><br>
+<button color="red" onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/dashbod.htm">home</button><br><br><br><br><br><br>
+
+<button onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/quiz.html'"><--previous</button><button onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/country-capital.html'">next--></button>
+        <h1>Which country is home to the world's largest salt flat, the Salar de Uyuni?</h1><br>
+        <li><input type="radio" id="correct1">bolivia</li><br>
+        <li><input type="radio" >india</li><br>
+        <li><input type="radio" >USA</li><br>
+        <li><input type="radio" >Brazil</li><br>
+        <h1>What is the name of the mountain range that runs through the middle of the Iberian Peninsula?</h1><br>
+        <li><input type="radio" id="correct2"> The Sierra Nevada</li><br>
+        <li><input type="radio" > bolivia</li><br>
+        <li><input type="radio" >panama canal</li><br>
+        <li><input type="radio" >suez canal</li><br>
+    </body>
+    <body bgcolor="yellow">
+         <h1>What is the only country that borders both the Caspian Sea and the Black Sea?</h1><br>
+        <li><input type="radio" >Armenia</li><br>
+        <li><input type="radio" >UAE</li><br>
+        <li><input type="radio" id="correct3">Azerbejan</li><br>
+        <li><input type="radio" >Saudi aribia</li><br>
+        <h1>What is the largest island in Micronesia?</h1><br>
+        <li><input type="radio" >Kazakhstan</li><br>
+        <li><input type="radio" >Ghana</li><br>
+        <li><input type="radio" >Congo</li><br>
+        <li><input type="radio" id="correct4">botswana</li><br>
+        <h1>What is the name of the narrow strait that separates the islands of Honshu and Hokkaido in Japan?</h1><br>
+        <li><input type="radio" >denmark strait</li><br>
+        <li><input type="radio" id="correct5">Tsugaru Strait</li><br>
+        <li><input type="radio" >bolivia</li><br>
+        <li><input type="radio" >palk strait<li><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+    
+    <center><button onclick="result()" >SUBMIT quiz</button></li></center>
+  
+      <script type="text/javascript">
+        function result()
+        {
+            var score=0;
+            if(document.getElementById('correct1').checked)
+        {
+            score++;
+        }
+    
+        
+        if(document.getElementById('correct2').checked)
+        {
+            score++;
+        }
+
+
+        if(document.getElementById('correct3').checked)
+        {
+            score++;
+        }
+
+        if(document.getElementById('correct4').checked)
+        {
+            score++;
+        }
+
+
+        if(document.getElementById('correct5').checked)
+        {
+            score++;
+        }
+        alert("your score is"+score);
+        }
+    </script>
+</body>
+</html>

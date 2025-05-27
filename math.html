@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>maths quiz</title>
+    </head>
+    <body >
+        <img src="C:\Users\sapeksh\Desktop\gift web/logo.png"/><br>
+<button color="red" onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/dashbod.htm'">home</button><br><br><br><br><br><br>
+<button onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/quiz.html'"><--previous</button>
+        <h1>What is the only even prime number? </h1><br>
+        <li><input type="radio" id="correct1">2</li><br>
+        <li><input type="radio" >5</li><br>
+        <li><input type="radio" >7</li><br>
+        <li><input type="radio" >11</li><br>
+        <h1>What is the sum of the interior angles of a hexagon?</h1><br>
+        <li><input type="radio" id="correct2"> 720</li><br>
+        <li><input type="radio" > 360</li><br>
+        <li><input type="radio" >180</li><br>
+        <li><input type="radio" >260</li><br>
+    </body>
+    <body bgcolor="yellow">
+         <h1>If you fold a piece of paper in half 42 times, how many layers thick would it be?</h1><br>
+        <li><input type="radio" >2^4</li><br>
+        <li><input type="radio" >2^889</li><br>
+        <li><input type="radio" id="correct3">2^42</li><br>
+        <li><input type="radio" >9^234</li><br>
+        <h1>If a clock reads 3:15, what is the angle between the hour hand and the minute hand?</h1><br>
+        <li><input type="radio" >26</li><br>
+        <li><input type="radio" >21</li><br>
+        <li><input type="radio" >34</li><br>
+        <li><input type="radio" id="correct4">21.5</li><br>
+        <h1>What is the next number in the Fibonacci sequence: 1, 1, 2, 3, 5, 8, ... ? </h1><br>
+        <li><input type="radio" >5876</li><br>
+        <li><input type="radio" id="correct5">13</li><br>
+        <li><input type="radio" >14</li><br>
+        <li><input type="radio" >15<li><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+    
+    <center><button onclick="result()" >SUBMIT quiz</button></li></center>
+  
+      <script type="text/javascript">
+        function result()
+        {
+            var score=0;
+            if(document.getElementById('correct1').checked)
+        {
+            score++;
+        }
+    
+        
+        if(document.getElementById('correct2').checked)
+        {
+            score++;
+        }
+
+
+        if(document.getElementById('correct3').checked)
+        {
+            score++;
+        }
+
+        if(document.getElementById('correct4').checked)
+        {
+            score++;
+        }
+
+
+        if(document.getElementById('correct5').checked)
+        {
+            score+20;
+        }
+        alert("your score is"+score);
+        }
+    </script>
+</body>
+</html>

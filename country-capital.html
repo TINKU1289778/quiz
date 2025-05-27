@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>science quiz</title>
+    </head>
+    <body >
+        <img src="C:\Users\sapeksh\Desktop\gift web\logo.png"/><br><br><br><br><br><br><br><br><br>
+<h1>In following quiz there is country name. you have to choose right capital  </h1><br><br><br><br><br><br><br><br>
+<button color="red" onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/dashbod.htm'">home</button><br><br><br><br><br><br>
+<button onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/geography.html'"><--previous</button>
+<button onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/social-science.html'">next--></button>
+
+        <h1>Timor laste</h1><br>
+        <li><input type="radio" id="correct1">Dili</li><br>
+        <li><input type="radio" >Delhi</li><br>
+        <li><input type="radio" >malabo</li><br>
+        <li><input type="radio" >ouagadougou</li><br>
+        <h1> swaziland</h1><br>
+        <li><input type="radio" id="correct2">Mbane</li><br>
+        <li><input type="radio" > berne</li><br>
+        <li><input type="radio" >Maputo</li><br>
+        <li><input type="radio" >Adja</li><br>
+    </body>
+    <body bgcolor="yellow">
+         <h1>Holy see</h1><br>
+        <li><input type="radio" >Havana</li><br>
+        <li><input type="radio" >ougadougou</li><br>
+        <li><input type="radio" id="correct3">vatican city</li><br>
+        <li><input type="radio" >San marino</li><br>
+        <h1>St vincent & gre.</h1><br>
+        <li><input type="radio" >Castries</li><br>
+        <li><input type="radio" >Bridgetown</li><br>
+        <li><input type="radio" >kingston</li><br>
+        <li><input type="radio" id="correct4">Kingstown</li><br>
+        <h1>Fiji </h1><br>
+        <li><input type="radio" </li>Canbara<br>
+        <li><input type="radio" id="correct5">Suva</li><br>
+        <li><input type="radio" >Tarawa</li><br>
+        <li><input type="radio" >Majuro<li><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+    
+    <center><button onclick="result()" >SUBMIT quiz</button></li></center>
+  
+      <script type="text/javascript">
+        function result()
+        {
+            var score=0;
+            if(document.getElementById('correct1').checked)
+        {
+            score++;
+        }
+    
+        
+        if(document.getElementById('correct2').checked)
+        {
+            score++;
+        }
+
+
+        if(document.getElementById('correct3').checked)
+        {
+            score++;
+        }
+
+        if(document.getElementById('correct4').checked)
+        {
+            score++;
+        }
+
+
+        if(document.getElementById('correct5').checked)
+        {
+            score++;
+        }
+        alert("your score is"+score);
+        }
+    </script>
+</body>
+</html>

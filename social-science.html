@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>social-science quiz</title>
+    </head>
+    <body >
+        <img src="C:\Users\sapeksh\Desktop\gift web\logo.png"/><br>
+
+<button color="red" onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/dashbod.htm'">home</button><br><br><br><br><br><br>
+<button onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/geography.html'"><--previous</button>
+<button onclick="document.location='file:///C:/Users/sapeksh/Desktop/gift web/science quiz.html'">next--></button>
+
+        <h1>What economic indicator is most closely associated with classifying a country as developed?</h1><br>
+        <li><input type="radio" id="correct1">income per capita</li><br>
+        <li><input type="radio" >Gross Domestic Product (GDP) per capita</li><br>
+        <li><input type="radio" >Population growth rate</li><br>
+        <li><input type="radio" >Unemployment rate</li><br>
+
+        <h1> Which country among the following is a developing country?</h1><br>
+        <li><input type="radio" id="correct2">India</li><br>
+        <li><input type="radio" > Japan</li><br>
+        <li><input type="radio" >France</li><br>
+        <li><input type="radio" >Sweden</li><br>
+
+    </body>
+    <body bgcolor="yellow">
+         <h1>Which of the following theories posits that social change occurs through a process of thesis-antithesis-synthesis, where conflicting ideas lead to new understandings?</h1><br>
+        <li><input type="radio" >Symbolic Interactionism</li><br>
+        <li><input type="radio" >Conflict Theory</li><br>
+        <li><input type="radio" id="correct3">Dialectical Materialism</li><br>
+        <li><input type="radio" >Structural Functionalism</li><br>
+
+        <h1>The main feature to recognize a developing economy is "low per capita income."</h1><br>
+        <li><input type="radio" >false</li><br>
+        <li><input type="radio" id="correct4">True</li><br>
+
+        <h1>Which sociologist is known for his theory of the "sociological imagination"?  
+ </h1><br>
+        <li><input type="radio" </li>Max Weber<br>
+        <li><input type="radio" id="correct5">C. Wright Mills</li><br>
+        <li><input type="radio" >Emile Durkheim</li><br>
+        <li><input type="radio" >Karl Marx
+<li><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+    
+    <center><button onclick="result()" >SUBMIT quiz</button></li></center>
+  
+      <script type="text/javascript">
+        function result()
+        {
+            var score=0;
+            if(document.getElementById('correct1').checked)
+        {
+            score++;
+        }
+    
+        
+        if(document.getElementById('correct2').checked)
+        {
+            score++;
+        }
+
+
+        if(document.getElementById('correct3').checked)
+        {
+            score++;
+        }
+
+        if(document.getElementById('correct4').checked)
+        {
+            score++;
+        }
+
+
+        if(document.getElementById('correct5').checked)
+        {
+            score++;
+        }
+        alert("your score is"+score);
+        }
+    </script>
+</body>
+</html>
